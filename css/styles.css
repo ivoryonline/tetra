@@ -40,12 +40,44 @@ body {
 
 /* TEXT */
 a { /* links */
-    color: rgb(255, 0, 76);
+    color: rgb(255, 0, 76); /* I LOVE AMARANTH! */
     transition: text-shadow 0.15s ease-in-out; 
     font-weight: bold;
 }
 a:hover { /* link hover */
     text-shadow: 0 0 5px rgb(255, 0, 76);  /* pretty :3 */
+}
+a.orange {
+    color: rgb(255, 171, 115);
+    transition: text-shadow 0.15s ease-in-out; 
+    font-weight: bold;
+}
+a.orange:hover {
+    text-shadow: 0 0 5px rgb(255, 171, 115);
+}
+a.blue {
+    color: rgb(115, 199, 255);
+    transition: text-shadow 0.15s ease-in-out; 
+    font-weight: bold;
+}
+a.blue:hover {
+    text-shadow: 0 0 5px rgb(115, 199, 255);
+}
+a.green {
+    color: rgb(115, 255, 157);
+    transition: text-shadow 0.15s ease-in-out; 
+    font-weight: bold;
+}
+a.green:hover {
+    text-shadow: 0 0 5px rgb(115, 255, 157);
+}
+a.white {
+    color: rgb(228, 228, 228);
+    transition: text-shadow 0.15s ease-in-out; 
+    font-weight: bold;
+}
+a.white:hover {
+    text-shadow: 0 0 5px rgb(228, 228, 228);
 }
 .monospace {
     font-family: 'Courier New', Courier, monospace;
@@ -56,15 +88,20 @@ a:hover { /* link hover */
     display: inline-block;
     border: 1px solid #222;
 }
-mark {
+mark { /* marks cus they r pretty (like you, dear reader :3) */
     background-color: rgb(255, 160, 200);
+}
+mark.blue { /* marks cus they r pretty (like you, dear reader :3) */
+    background-color: rgb(160, 217, 255);
 }
 
 /* IMAGES */
 img {
   width: 15%;
 }
-
+img.large {
+    width: 25%;
+}
 .img88x31 img {
   width: 88px;
   height: 31px;
