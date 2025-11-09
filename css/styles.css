@@ -98,6 +98,10 @@ mark.blue { /* marks cus they r pretty (like you, dear reader :3) */
 /* IMAGES */
 img {
   width: 15%;
+  transition: transform 0.3s ease; 
+}
+img:hover { /* pretty hover */
+    transform: scale(1.1) rotate(2deg);
 }
 img.large {
     width: 25%;
