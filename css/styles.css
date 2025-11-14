@@ -1,6 +1,7 @@
 html { /* full page (for trail */
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 /* BODY */
@@ -9,8 +10,7 @@ body {
     font-family: 'Lexend', sans-serif;
     color: rgb(219, 219, 219); /* Not pure white; — makes it easier to read */
     text-align: center;
-    max-width: 70%;
-    margin: 0 auto;
+    margin: 0 auto; /* centers stuff correctly */
     min-height: 100%; /* full page (for trail */
 
     /* no selecting */
@@ -39,6 +39,10 @@ body {
 }
 
 /* TEXT */
+p {
+    max-width: 70%;
+    margin: 0 auto;
+}
 a { /* links */
     color: rgb(255, 0, 76); /* I LOVE AMARANTH! */
     transition: text-shadow 0.15s ease-in-out; 
@@ -97,8 +101,8 @@ mark.blue { /* marks cus they r pretty (like you, dear reader :3) */
 
 /* IMAGES */
 img {
-  width: 15%;
-  transition: transform 0.3s ease; 
+    width: 15%;
+    transition: transform 0.3s ease; 
 }
 img:hover { /* pretty hover */
     transform: scale(1.1) rotate(2deg);
@@ -107,7 +111,21 @@ img.large {
     width: 25%;
 }
 .img88x31 img {
-  width: 88px;
-  height: 31px;
-  max-width: none;
+    width: 88px;
+    height: 31px;
+    max-width: none;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(189, 0, 57); 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 0, 76); 
 }
