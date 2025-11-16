@@ -7,7 +7,7 @@ html { /* full page (for trail */
 /* BODY */
 body {
     background-color: rgb(0, 0, 0);
-    background-image: assets/images/bg-stars.gif;
+    background-image: url(assets/images/bg-stars.gif");
     background-repeat: repeat;
     animation: diagonalScroll 40s linear infinite;
     overflow: hidden;
