@@ -6,4 +6,3 @@ link.textContent = "home";
 
 paragraph.appendChild(text);
 paragraph.appendChild(link);
-paragraph.appendChild(image1);
