@@ -7,6 +7,10 @@ html { /* full page (for trail */
 /* BODY */
 body {
     background-color: rgb(0, 0, 0);
+    background-image: url("./assets/images/bg-stars.gif");
+    background-repeat: repeat;
+    animation: diagonalScroll 40s linear infinite;
+    overflow: hidden;
     font-family: 'Lexend', sans-serif;
     color: rgb(219, 219, 219); /* Not pure white; — makes it easier to read */
     text-align: center;
@@ -27,7 +31,14 @@ body {
     white-space: pre-wrap;      /* current browsers */
 
 }
-
+@keyframes diagonalScroll {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
 
 /* ASCII ART (the one at the top of the page)*/
 .asciiart {
