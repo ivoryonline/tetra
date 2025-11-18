@@ -187,3 +187,34 @@ img.large {
 .navbar a.active {
     background-color: rgb(204, 0, 61);
 }
+
+/* TABLES */
+table {
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+td, th {
+  border: 1px solid rgb(24, 16, 18);
+  text-align: left;
+  padding: 10px;
+  transition: background-color 0.15s ease-in-out; 
+}
+td:hover, th:hover {
+    background-color: rgb(17, 12, 13);
+}
+tr:nth-child(even) {
+  background-color: rgb(31, 21, 24);
+}
+tr:nth-child(odd) {
+  background-color: rgb(26, 17, 19);
+}
+.tablecontainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.tablecontainer table {
+    margin: 0;
+}
