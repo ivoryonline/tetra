@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetra — Network Topology</title>
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../assets/fonts/fonts.css"> <!-- Main Fonts -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Meta Stuff -->
+    <meta content="Tetra — Network Topology" property="og:title">
+    <meta content="decentralised networks r cool btw" property="og:description">
+    <meta content="Tetra" property="og:site_name">
+    <meta content='../assets/images/tetralogo.png' property='og:image'>
+</head>
+<body id="body"><div class="topbar">
+        <div class="logo-container">
+            <a href="../index.html"><img src="../assets/images/tetralogo.png" alt="tetra hell yea >:3" href="../index"></a>
+            <span class="topbar-subtitle-text">vivian's</span>
+            <strong class="topbar-page-title">Computer Science | Network Topology</strong>
+        </div>
+    </div><nav class="navbar">
+        <a href="../index.html">home</a>
+        <a href="../aboutsite.html">about</a>
+        <a href="https://github.com/ivoryonline/tetra">src</a>
+    </nav><p>
+
+<p style="text-align: left;"><strong style="text-decoration: underline;">what is network topology anyways?</strong>
+<strong>Network topology</strong> is just a word to describe the general structure of a network: how it's laid out and how <mark><em>nodes</em></mark> connect. (Node is a word that describes anything connected to a network, such as computers, printers, or reciprocators of the network.)
+When considering a network topology, some of the factors to take into account are: <mark class="blue">cost, transfer speed, & scalability.</mark>
+
+There are <strong>four</strong> main types in OCR Computer Science:
+— Star networks
+— Mesh networks
+— Bus networks
+— Ring networks
+
+<p style="text-align: left;"><strong style="text-decoration: underline;">Star Networks</strong>
+Star networks are a type of network topology that involves a central switch; all nodes connect to this main central switch.
+
+<img src="../assets/images/notes/star.jpg">
+
+Advantages of a star network:
+— If one node loses communication to the central switch, <mark>the rest of the network is unaffected.</mark>
+— Data transfer is <strong>fast</strong> as each wire is connected to the hub and not shared with <em>other computers</em>
+
+Disadvantages of a star network:
+— Additional setup is required for this network topology as a <mark class="blue">central switch and network cables are required.</mark>
+— The network can <strong>not</strong> be wireless.
+— The network is centralised to the central switch; so if the central switch goes down, <em>so does the rest of the network.</em>
+
+<p style="text-align: left;"><strong style="text-decoration: underline;">Mesh Networks</strong>
+Mesh networks have nodes that are <mark>connected to each other instead of being connected to a central node</mark> such as a <em>central switch.</em>
+There are <strong>two</strong> main types of Mesh networks in OCR GCSE: <mark class="blue">Partially connected & Fully connected mesh networks.</mark>
+Each node is <mark>capable of sending and receiving</mark> data from <em>other nodes.</em>
+
+<img src="../assets/images/notes/meshfull.png"><img src="../assets/images/notes/meshpartial.jpg">
+
+Advantages of a <em>full</em> mesh network:
+— No <mark class="blue">single point of failure</mark>
+— The fastest path of connection is found and used
+— No node is isolated
+— Data is likely to transfer properly because <strong>multiple nodes</strong> can provide the <em>same connection</em>
+
+Disadvantages of a <em>full</em> mesh network:
+— If one node is down it can affect the speed of others
+— If wired it is often more <strong>expensive to setup than alternatives</strong>
+— Network maintanence and administration is <mark>often more difficult than alternatives;</mark> a larger amount is also needed
+
+Advantages of a <em>partially connected</em> mesh network:
+— No single point of failure
+— Network administration and maintanence is <strong>less needed than in a fully connected mesh network</strong>
+— No node is isolated
+— Data is <em>likely</em> to transfer properly because <mark class="blue">multiple nodes can provide the same connection</mark>
+
+Disadvantages of a <em>partially connected</em> mesh network:
+— If one node <strong>goes down</strong> it can affect the speed of others
+— Not all nodes are connected to each other so data <em>may not transfer</em> at rates as <em>fast</em> as a <strong>partially connected</strong> mesh network
+
+<p style="text-align: left;"><strong style="text-decoration: underline;">Bus Networks</strong>
+Bus networks are a network topology that involves having <strong>several nodes connect using one main cable.</strong>
+All nodes are attatched to this cable and <em>use it to send/recieve data.</em>
+
+<img src="../assets/images/notes/bus.jpg">
+
+Advantages of a bus network:
+— Very easy to setup because it only uses <strong>one</strong> cable
+— <em>Low cost</em> to build in small networks
+— The simple layout is <strong>easy to understand</strong>
+
+Disadvantages of a bus network:
+— Centralised to the main cable, <mark>if the main cable breaks then the whole network stops working</mark>
+— The more nodes there are connected, <strong>the more collisions</strong> the network has <em>(this slows the network down)</em>
+— <em>Quickly</em> becomes slow and unreliable for large networks
+
+<p style="text-align: left;"><strong style="text-decoration: underline;">Ring Networks</strong>
+Ring networks are a <mark class="blue">network topology that involves all devices being connected in series<em></mark> (this is usually represented as a circle.)</em>
+The data passes from <strong>once device to another</strong> until it eventually reaches the <em>computer it was intended for.</em>
+They are <strong>often</strong> used in smaller networks that are <mark>unlikely to be scaled upwards.</mark>
+
+<img src="../assets/images/notes/ring.jpg">
+
+Advantages of a ring network:
+— <strong>Zero data collision</strong> due to the cyclical structure
+— Simple to setup since the <mark class="blue">arrangement is very straightforward</mark>
+
+Disadvantages of a ring network:
+— Has to go through <em>every node</em> which is much slower than <strong>other network topologies</strong>
+— Very hard to troubleshoot, maintain, and administrate
+— The network <em>must</em> be closed to add more devices
+
+
+</p>
+go back to <a href="compsci.html"><em>computer science notes</em></a>
+<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+<script src="../js/trail.js"></script>
+<script src="../js/consolelog.js"></script>
+</body>
+</html>
