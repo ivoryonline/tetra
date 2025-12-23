@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivticle! | Tetra</title>
+    <link rel="icon" href="https://assets.vivwebz.net/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/vivticle.css"/>
+</head>
+<body>
+    <div class="site-center">
+        <div class="posts-vertical">
+            <header>
+                <section class="top">
+                    Vivticle!
+                </section>
+            </header>
+            
+            <main id="posts-container">
+                <!-- Posts will be inserted here -->
+            </main>
+        </div>
+    </div>
+
+    <script>
+        window.customEmojis = {
+            "tetra": "https://tetra.vivwebz.net/assets/images/tetralogo.png",
+            "blush": "https://em-content.zobj.net/source/twitter/376/smiling-face-with-smiling-eyes_1f60a.png",
+            "heart": "https://em-content.zobj.net/source/twitter/376/red-heart_2764-fe0f.png"
+        };
+        const posts = [
+            {
+                title: "My First Post :tetra:",
+                date: "December 23, 2025",
+                content: `
+Here's some **bold text**.
+Here's some *italic text* and [a link to something cool](https://example.com).
+Here's them ***together!***
+
+You can also use custom emojis! :heart: :blush: :tetra:
+
+{{https://assets.vivwebz.net/b8d52379af61517781f762e03e7ed74f.jpg}}
+                `
+            },
+            {
+                title: "Another Great Post",
+                date: "December 20, 2025",
+                content: `
+Here's another post to show how multiple entries look. Each post gets its own card with the gradient header and proper spacing.
+
+The posts appear in chronological order from newest to oldest. :tetra:
+                `
+            }
+        ];
+    </script>
+    <script src="js/vivticle.js"></script>
+</body>
+</html>
