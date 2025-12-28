@@ -90,7 +90,7 @@ body {
     animation: diagonalScroll 40s linear infinite;
     color: var(--fontColor);
     font-family: 'Lexend', 'Rubik', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     font-size: 0.9em;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
