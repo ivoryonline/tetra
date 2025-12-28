@@ -91,6 +91,7 @@ body {
     color: var(--fontColor);
     font-family: 'Lexend', 'Rubik', Arial, sans-serif;
     font-size: 18px;
+    line-height: 17px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -116,7 +117,7 @@ body {
 }
 
 .posts-vertical {
-    width: 1080px;
+    width: 1260px;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
